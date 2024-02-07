@@ -21,6 +21,11 @@ Description: html table, structuring planet data
     <h1>Planets data</h1>
 
     <table>
+      <colgroup>
+        <col span="2">
+        <col style="border: 2px solid black">
+        <col span="9">
+      </colgroup>
       <caption> Data about the planets of our solar system (Planetary facts taken from 
         <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
       <thead>
@@ -62,9 +67,14 @@ Description: html table, structuring planet data
         </tr>
         <tr>
           <th rowspan="2">Ice giants</th>
+          <th>Uranus</th>
         </tr>
         <tr>
           <th>Neptune</th>
+        </tr>
+        <tr>
+          <th colspan="2" >Dwarf Planets</th>
+          <th>Pluto</th>
         </tr>
       </tbody>
     </table>
