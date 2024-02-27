@@ -68,3 +68,13 @@ header, footer {
   font-style: normal;
 }
 
+
+html {
+  font-family: librebaskerville, serif;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: robotoslab, sans-serif;
+  letter-spacing: 2px;
+}
