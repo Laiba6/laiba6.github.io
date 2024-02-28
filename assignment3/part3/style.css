@@ -1,3 +1,11 @@
+/*
+	Name: Laiba Ahmed
+	File: styles.css
+	Date: February 26 2024
+  Description: Typesetting a community school homepage
+*/
+
+
 /* General setup */
 
 * {
@@ -44,6 +52,8 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+/* Fonts*/
+
 @font-face {
   font-family: 'Libre Baskerville';
   src: url('LibreBaskerville-Regular.ttf');
@@ -68,28 +78,45 @@ header, footer {
   font-style: normal;
 }
 
-
 /* Heading */
 
-h1, h2 {
-  letter-spacing: 2px;
-  font-size: 2em;
-
+html {
+  font-family: LibreBaskerville, serif;
+  font-size: 10px;
 }
 
 h1 {
+  font-size: 5rem;
   text-align: center;
-
 }
+
+h2 {
+  font-size: 3.2rem;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
 
 /* Body */
 
-p {
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
   letter-spacing: 0.5px;
-  word-spacing: 3px;
+  word-spacing: 2px;
+}
+
+/* Paragraph */
+
+section p:first-of-type {
+  text-indent: 20px;
 
 }
+
 /* Links */
+
 a {
   color: #a66;
   text-decoration: underline;
@@ -113,11 +140,53 @@ a:focus {
 }
 
 a:active {
-  color: #6a4;
+  color: rgb(213, 149, 255);
 
 }
 
-a[href^="http"]:after {
-  content: " \2197";
+a[href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 14px 14px;
+}
 
+/* List */
+
+ul, ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+li {
+  line-height: 1.6;
+  list-style-type: square;
+
+}
+
+/* nav menu */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #a66;
+}
+
+
+nav a:hover,
+nav a:focus {
+  background-color:rgb(213, 149, 255);
 }
