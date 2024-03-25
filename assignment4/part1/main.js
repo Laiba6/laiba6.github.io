@@ -1,8 +1,8 @@
-// Name:Laiba Ahmed
-// Date: March 20, 2024
-// File Name: main.js
-// Description: Silly Story Generator
-
+/* Name:Laiba Ahmed
+Date: March 20, 2024
+File Name: main.js
+Description: Silly Story Generator
+*/
 
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
