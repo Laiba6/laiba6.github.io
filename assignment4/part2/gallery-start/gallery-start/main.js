@@ -12,7 +12,12 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ["._pic1.jpg","._pic2.jpg", "._pic3.jpg", "._pic4.jpg", "._pic5.jpg" ]
+const images = ["pic1.jpg","pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg" ]
+const alts = {"pic1.jpg" : "Closeup of a human eye", 
+              "pic2.jpg" : "A wave rock",
+              "pic3.jpg" : "Purple & white flowers",
+              "pic4.jpg" : "An acient wall",
+              "pic5.jpg" : "A moth on a leaf" }
 
 /* Declaring the alternative text for each image file */
 
