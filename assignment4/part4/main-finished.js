@@ -1,3 +1,11 @@
+/*
+	Name: Laiba Ahmed
+	File: index.html
+	Date: march 30,2024
+	Description : Adding features to our bouncing balls demo
+*/
+
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
