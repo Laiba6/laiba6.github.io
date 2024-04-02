@@ -1,3 +1,9 @@
+/* Name: Laiba Ahmed
+Date: April 2, 2024
+Filename: main-finished.js
+Description: Adding features to our bouncing balls demo
+*/
+
 // setup canvas
 
 const para = document.querySelector('p');
